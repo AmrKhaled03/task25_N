@@ -1,0 +1,78 @@
+
+aside{
+	width: 100%;
+	min-height: 100vh;
+	background-color: #40404095;
+	position: fixed;
+top: 0;
+right: -100vw;
+	z-index: 9999;
+	transition: .5s linear;
+}
+aside.open{
+    right: 0;
+}
+aside .icon {
+	padding: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 30px;
+}
+aside .icon i{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+Table {
+	background-color: white;
+	width: 99%;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 0px 0px 6px rgb(36, 36, 36);
+
+}
+Table img{
+	width: 50px;
+	height: 50px;
+}
+Table .amount{
+	font-size: 25px;
+}
+Table .btn{
+	cursor: pointer;
+	border: 1px solid black;
+	font-size: 25px;
+	padding: 3px 10px;
+	margin: 0px 10px;
+}
+.side-bottom{
+	position: absolute;
+	bottom: 100px;
+	left: 100px;
+	display: flex;
+}
+.side-bottom h4{
+	border: 1px solid black;
+	padding: 5px 20px;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 0px 10px;
+}
+.side-bottom h4.btn{
+	background-color: white;
+	color: #121212;
+	
+}
